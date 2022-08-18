@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            background-color:rgb(228, 220, 221);
+            border :4px solid lightcoral;
+            padding:70px;
+            margin:5px;
+            width:255px;
+            border-radius: 5px;
+            /* padding : 70px 60px 7px 90px   padding/margin=Top right bottom left (we can write padding margin like this also) */
+        }
+        body{
+             background-color: pink;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Heading</h3>
+       <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga facere mollitia autem accusantium rerum tempore?</p>
+     </div>
+       <div class="container">
+        <h3>Heading</h3>
+       <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga facere mollitia autem accusantium rerum tempore?</p>
+    </div>
+    <div class="container">
+        <h3>Heading</h3>
+       <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga facere mollitia autem accusantium rerum tempore?</p>
+    </div>
+</body>
+</html>
